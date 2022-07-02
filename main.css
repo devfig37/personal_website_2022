@@ -1,0 +1,52 @@
+body {
+    color: #222;
+    background: #fff;
+    font: 100% system-ui;
+    text-align:left;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 5%;
+    padding-bottom: -100%;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 25px;
+    margin: auto;   
+}
+
+.card {
+    width: 50%;
+    margin-left: 27.5%;
+}
+
+.json {
+    margin: auto;
+    padding-right: 20%;
+    
+}
+
+.code_1 {
+    display: flexbox;
+}
+
+.code_2 {
+    display: flexbox;
+    word-break: break-all;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+      margin-left: 35%;
+      margin-right: 35%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+        margin-left: -10%;
+    }
+  }
